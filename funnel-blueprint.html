@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Funnel Blueprint - For Redd - AG1</title>
+<meta name="description" content="Funnel Blueprint - built for @networkgoder by AG1 Consulting.">
+<meta name="robots" content="noindex">
+<meta property="og:title" content="Funnel Blueprint - For Redd">
+<meta property="og:description" content="Part of the warm-reentry plan built for @networkgoder by AG1 Consulting.">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="docs.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-back"><span class="arrow">&larr;</span> Back to Hub</a>
+    <span class="nav-title">For Redd - AG1</span>
+  </div>
+</nav>
+
+<article class="doc">
+  <header class="doc-header">
+    <span class="doc-tag">Architecture</span>
+    <h1>Big Redd | GoDer Stack Funnel Blueprint</h1>
+  </header>
+
+  
+<p><strong>Prepared:</strong> 2026-05-16
+<strong>Audience tier:</strong> 82K IG (@networkgoder) + six-entity stack
+<strong>Core concept:</strong> Revival and rebuild of godermag.com + worldcbdexpo.com as front-end and back-end of one unified Big Redd brand funnel</p>
+<hr />
+<h2>The Problem This Blueprint Solves</h2>
+<p>Six businesses. Zero owned digital surfaces.</p>
+<ul>
+<li>godermag.com: 301 redirect to @godermagazine IG. No website.</li>
+<li>worldcbdexpo.com: GoDaddy parking page. No event infrastructure.</li>
+<li>@networkgoder 82K: routes to Instagram bio, not to an owned asset.</li>
+<li>Zero email list across all six entities.</li>
+<li>Zero cross-sell between any of the six businesses.</li>
+</ul>
+<p>Every dollar of advertiser, exhibitor, subscriber, and community revenue that should exist is blocked by the absence of basic web infrastructure.</p>
+<hr />
+<h2>Blueprint Architecture</h2>
+<pre><code>ENTRY POINTS (existing)
+------------------------
+@networkgoder IG (82K)
+@godermagazine IG
+@world_cbd_expo IG
+@smokealotradio
+@yukmouth_network
+@iheartrealestateinc
+
+
+         |
+         | (bio link / cross-account routing)
+         v
+
+[ THE GODER STACK ROUTER ]
+   Bio link on @networkgoder
+   Single destination: godermag.com
+   Four-route selector: Magazine | Expo | Radio | RE
+
+
+         |
+    _____|______________________________
+    |           |           |          |
+    v           v           v          v
+
+[ GODERMAG.COM ]  [ WORLDCBDEXPO.COM ]  [ SMOKEALOTRADIO ]  [ IHEARTREALESTATE ]
+  Front-End Hub     Back-End Hub          (stream embed)       (deal-flow form)
+  (Phase 1)         (Phase 1)
+
+
+         |                   |
+         |                   |
+         v                   v
+
+[ EMAIL OPT-IN ]         [ EXHIBITOR / TICKET ]
+  The GoDer Drop           Booth application
+  Weekly culture digest    Sponsor pack (gated)
+  Four segments:           Stripe checkout
+  - Magazine readers
+  - Brand advertisers
+  - Expo attendees
+  - RE deal flow
+
+
+         |
+         v
+
+[ BACK-END MONETIZATION ]
+  - Magazine ad placements ($3K-$15K/placement)
+  - Brand-feature application waitlist (gated, premium)
+  - Expo booth checkout ($2K-$15K/booth)
+  - Expo sponsor pack (email-gated download)
+  - Expo attendee tickets
+  - The GODER Network community (Phase 3)
+    $97/month founding rate, 250-member cap
+</code></pre>
+<hr />
+<h2>Phase 1 - The Two Hubs (Days 1-7 from kickoff)</h2>
+<h3>Hub A: GoDer Magazine at godermag.com</h3>
+<p><strong>Purpose:</strong> Convert 18 years of brand equity into a real advertiser and reader funnel.</p>
+<p><strong>Page sections:</strong>
+1. Hero - magazine masthead, current issue feature image, brand-feature application CTA
+2. About GoDer - 18-year story, Bay Area culture coverage, network proof (Yukmouth, West Coast hip-hop, urban entertainment)
+3. Featured coverage grid - 3-4 recent issue highlights with thumbnail + headline
+4. Brand-feature application form - gated inquiry for premium placement
+5. Advertiser pack - downloadable PDF (email-gated: captures advertiser-segment lead)
+6. Event calendar - upcoming GoDer events, expo dates, Yukmouth Network appearances
+7. The GoDer Drop opt-in - "Get the weekly drop: music, fashion, expo dates, network news"
+8. Footer - all six entity links, contact, social stack</p>
+<p><strong>Revenue lines activated:</strong>
+- Brand-feature applications (email inquiry)
+- Advertiser pack downloads (email-gated lead capture)
+- The GoDer Drop subscribers (email list, magazine segment)
+- Event calendar driving expo page traffic</p>
+<p><strong>Timeline:</strong> Live in 7 days from kickoff.</p>
+<hr />
+<h3>Hub B: World CBD Expo at worldcbdexpo.com</h3>
+<p><strong>Purpose:</strong> Take the parked domain and turn it into a live event-booking funnel.</p>
+<p><em>Note: If the expo is currently on pause by design, this hub ships in dormant/waitlist mode. If the expo is active, it ships in full booking mode.</em></p>
+<p><strong>Page sections:</strong>
+1. Hero - event name, next date / venue / city (or waitlist if paused), exhibitor-application CTA
+2. Event story - history, mission, CBD industry positioning, Yukmouth Network connection
+3. Exhibitor tier breakdown - booth sizes, prices, application link
+4. Sponsor pack - downloadable PDF (email-gated)
+5. Speaker roster - confirmed + placeholder (to be filled at kickoff)
+6. Attendee ticket flow - Stripe-integrated purchase or waitlist
+7. Returning-exhibitor wall - past exhibitor logos (to be added at kickoff)
+8. The GoDer Drop opt-in - expo-segment version: "Get expo updates, dates, and early-bird booth availability"
+9. Footer - full GoDer stack cross-links</p>
+<p><strong>Revenue lines activated:</strong>
+- Exhibitor applications (form inquiry or Stripe checkout)
+- Sponsor pack leads (email-gated download)
+- Attendee ticket sales (Stripe)
+- Expo-segment email subscribers</p>
+<p><strong>Timeline:</strong> Live in 7 days from kickoff.</p>
+<hr />
+<h2>Phase 2 - The Email List and Cross-Stack Router (Days 8-14)</h2>
+<h3>The GoDer Drop</h3>
+<p>Weekly culture digest. Format: curated short-form email. New music picks, fashion editorial, expo update, Yukmouth Network feature, GoDer advertiser spotlight.</p>
+<p><strong>Opt-in entry points:</strong>
+- godermag.com (magazine segment)
+- worldcbdexpo.com (expo segment)
+- @networkgoder bio link
+- @godermagazine bio link
+- @world_cbd_expo bio link</p>
+<p><strong>Segment routing:</strong>
+- Magazine reader: gets issue highlights + brand-feature open slots + advertiser spotlights
+- Brand advertiser: gets rate card updates + brand-feature waitlist status + audience data drops
+- Expo attendee: gets event dates + early-bird booth pricing + speaker announcements
+- RE deal flow: gets iHeartRealEstate deal flow + network introductions</p>
+<p><strong>List projection:</strong> 3-7% IG-to-email over 6 months from 82K base = 2,500-5,700 subscribers. Year-1 revenue floor from list: $30K-$80K.</p>
+<h3>The Cross-Stack Router</h3>
+<p>Single bio link on @networkgoder that routes to a simple selector page (or directly to godermag.com as the primary hub). Footer links on all six entity pages cross-connect the whole stack.</p>
+<hr />
+<h2>Phase 3 - The GODER Network Community (Post-Install Scaling)</h2>
+<p><strong>Format:</strong> Private community for operators in the Bay Area / West Coast urban entertainment, CBD, and RE space.</p>
+<p><strong>Offer:</strong>
+- $97/month founding rate
+- Capped at 250 founding members
+- Monthly live Q&amp;A with Big Redd
+- Bi-weekly drop-in calls with rotating Yukmouth Network guests
+- Marketplace board: advertiser slots, sponsor opportunities, RE deal flow</p>
+<p><strong>Revenue projection:</strong> 250 members x $97/month = $291,000/year direct. Community becomes warm pipeline for premium expo booths and GoDer Magazine feature placements.</p>
+<p><strong>Gate:</strong> Phase 3 does not launch until Phase 1 and Phase 2 are live and the email list has at least 1,000 subscribers. The community needs the infrastructure to fill it.</p>
+<hr />
+<h2>Year-1 Revenue Floor by Phase</h2>
+<table>
+<thead>
+<tr>
+<th>Phase</th>
+<th>Build</th>
+<th>Y1 Floor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1A</td>
+<td>GoDer Magazine hub</td>
+<td>$40K-$120K</td>
+</tr>
+<tr>
+<td>1B</td>
+<td>World CBD Expo hub</td>
+<td>$30K-$120K</td>
+</tr>
+<tr>
+<td>2A</td>
+<td>The GoDer Drop email list</td>
+<td>$30K-$80K</td>
+</tr>
+<tr>
+<td>2B</td>
+<td>Cross-stack router</td>
+<td>$20K-$60K</td>
+</tr>
+<tr>
+<td>3</td>
+<td>The GODER Network community</td>
+<td>$60K-$150K</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Combined</strong></td>
+<td><strong>$180K-$530K</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Build Spec Summary</h2>
+<table>
+<thead>
+<tr>
+<th>Deliverable</th>
+<th>Timeline</th>
+<th>Tech</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>godermag.com hub</td>
+<td>7 days</td>
+<td>HTML/CSS or CMS, GHL or Convertkit opt-in, email-gated advertiser PDF</td>
+</tr>
+<tr>
+<td>worldcbdexpo.com hub</td>
+<td>7 days</td>
+<td>Same stack + Stripe booth checkout</td>
+</tr>
+<tr>
+<td>The GoDer Drop setup</td>
+<td>Day 8-14</td>
+<td>ConvertKit or GHL email, 4-segment routing, weekly template</td>
+</tr>
+<tr>
+<td>Cross-stack router</td>
+<td>Day 8-14</td>
+<td>Bio link update, footer links across all entity pages</td>
+</tr>
+<tr>
+<td>The GODER Network</td>
+<td>Post-Phase 2</td>
+<td>Skool or Circle, Stripe subscription, onboarding sequence</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2>Data gaps to confirm at kickoff</h2>
+<ol>
+<li>Big Redd's legal name - not needed for the build. "Big Redd" is the brand.</li>
+<li>Expo dates and venue - needed for worldcbdexpo.com. If paused, hub ships in waitlist mode.</li>
+<li>Returning exhibitor logos for the wall.</li>
+<li>Speaker roster for the expo hub.</li>
+<li>Portrait photo for hub hero - CSS monogram "BR" placeholder until confirmed source supplied.</li>
+<li>Real testimonials for the receipts block on both hubs.</li>
+</ol>
+
+  <footer class="doc-footer">
+    <a href="index.html" class="doc-footer-link">Back to Hub</a>
+    <div class="doc-meta">Prepared 2026-05-16 &middot; Built for @networkgoder</div>
+  </footer>
+</article>
+
+</body>
+</html>
